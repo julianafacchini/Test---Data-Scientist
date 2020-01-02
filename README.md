@@ -19,4 +19,4 @@ bin/activate
 
 5) Instalar as dependências do projeto:
 
-pip install requirements.txt
+pip install -r requirements.txt
