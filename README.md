@@ -11,7 +11,10 @@ virtualenv ENV
 
 cd ENV
 
-3) Copiar o projeto para o diretório do ambiente, incluindo o arquivo requirements.txt e o arquivo newsample.csv;
+3) Copiar o projeto para o diretório do ambiente, incluindo:
+- requirements.txt, 
+- test_data_CANDIDATE.csv,
+- o arquivo newsample.csv;
 
 4) Ativar o ambiente:
 
@@ -20,3 +23,9 @@ bin/activate
 5) Instalar as dependências do projeto:
 
 pip install -r requirements.txt
+
+6) Rodar o arquivo py:
+
+python3 sex_predictor.py 
+
+O resultado estará gravado no arquivo: newsample_PREDICTIONS_{Juliana Facchini de Souza}.csv
