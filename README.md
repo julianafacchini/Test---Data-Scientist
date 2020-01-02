@@ -11,7 +11,7 @@ virtualenv ENV
 
 cd ENV
 
-3) Copiar o projeto para o diretório do ambiente, incluindo o arquivo requirements.txt;
+3) Copiar o projeto para o diretório do ambiente, incluindo o arquivo requirements.txt e o arquivo newsample.csv;
 
 4) Ativar o ambiente:
 
